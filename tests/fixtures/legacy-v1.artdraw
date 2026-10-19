@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artdraw version="1" width="794" height="1123" active-layer="1" next-id="2">
+<layers>
+<layer id="1" name="Camada 1" visible="true" locked="false"/>
+</layers>
+<objects>
+<object id="1" name="Retângulo" layer="1" group="0" visible="true" locked="false" fill="58 130 246 255" stroke="30 35 44 255" stroke-width="1.5" evenodd="false" transform="1 0 0 1 1 0">
+<rectangle rect="112.33805817604447 154.41008062319614 554.3239152939611 469.87957935646114"/>
+</object>
+</objects>
+</artdraw>

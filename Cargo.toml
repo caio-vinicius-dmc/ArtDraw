@@ -1,0 +1,23 @@
+[package]
+name = "coreldraw_clone"
+version = "1.9.0"
+edition = "2021"
+description = "ArtDraw — editor vetorial desktop offline, clean-room"
+license = "MIT"
+
+[dependencies]
+eframe = { version = "=0.31.1", default-features = false, features = ["default_fonts", "wgpu"] }
+vello = "=0.5.1"
+rfd = "0.15"
+roxmltree = "0.20"
+svgtypes = "0.15"
+ttf-parser = "0.25"
+epaint_default_fonts = "=0.31.1"
+image = { version = "0.25", default-features = false, features = ["png"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+strip = true
+panic = "abort"

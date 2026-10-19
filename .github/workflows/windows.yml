@@ -1,0 +1,30 @@
+name: Windows
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-and-test:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      CARGO_TERM_COLOR: always
+      CARGO_INCREMENTAL: '0'
+      RUSTUP_TOOLCHAIN: stable-x86_64-pc-windows-msvc
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Rust stable MSVC
+        run: rustup toolchain install stable-x86_64-pc-windows-msvc --profile minimal
+      - name: Conferir documento vivo e README
+        run: ./scripts/update-parity.ps1 -Check
+      - name: Baixar dependências fixadas
+        run: cargo fetch --locked
+      - name: Compilar e checar
+        run: ./build.ps1 -Mode Check -Offline
+      - name: Testes unitários sem GPU
+        run: ./build.ps1 -Mode Test -Offline

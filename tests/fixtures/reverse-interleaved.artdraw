@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artdraw version="3" active-page="1" next-page-id="3" next-id="6">
+<pages>
+<page id="1" name="Página 1" width="800" height="600" active-layer="1">
+<layers>
+<layer id="1" name="Camada 1" visible="true" locked="false"/>
+<layer id="2" name="Bloqueada" visible="true" locked="true"/>
+<layer id="3" name="Superior" visible="true" locked="false"/>
+</layers>
+<groups>
+</groups>
+<objects>
+<object id="1" name="Vermelho" layer="1" group="0" visible="true" locked="false" fill="239 68 68 255" stroke="none" stroke-width="0" evenodd="false" transform="1 0 0 1 0 0">
+<rectangle rect="100 100 280 260"/>
+</object>
+<object id="4" name="Bloqueado" layer="2" group="0" visible="true" locked="false" fill="100 100 100 255" stroke="none" stroke-width="0" evenodd="false" transform="1 0 0 1 0 0">
+<rectangle rect="500 400 600 500"/>
+</object>
+<object id="2" name="Azul" layer="1" group="0" visible="true" locked="false" fill="59 130 246 255" stroke="none" stroke-width="0" evenodd="false" transform="1 0 0 1 0 0">
+<rectangle rect="180 150 360 310"/>
+</object>
+<object id="5" name="Superior" layer="3" group="0" visible="true" locked="false" fill="250 204 21 255" stroke="none" stroke-width="0" evenodd="false" transform="1 0 0 1 0 0">
+<rectangle rect="550 100 650 200"/>
+</object>
+<object id="3" name="Verde" layer="1" group="0" visible="true" locked="false" fill="34 197 94 255" stroke="none" stroke-width="0" evenodd="false" transform="1 0 0 1 0 0">
+<rectangle rect="260 200 440 360"/>
+</object>
+</objects>
+</page>
+<page id="2" name="Página 2" width="800" height="600" active-layer="1">
+<layers>
+<layer id="1" name="Camada 1" visible="true" locked="false"/>
+</layers>
+<groups>
+</groups>
+<objects>
+</objects>
+</page>
+</pages>
+</artdraw>

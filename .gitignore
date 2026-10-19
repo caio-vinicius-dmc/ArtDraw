@@ -1,0 +1,17 @@
+/target/
+/.tools/
+/dist/
+/output/
+/tmp/
+*.log
+*.artdraw.bak
+Thumbs.db
+.DS_Store
+.vs/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
