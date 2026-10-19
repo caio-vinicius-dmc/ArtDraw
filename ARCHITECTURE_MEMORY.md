@@ -265,3 +265,21 @@ Pesquisa primária libcdr MPL2.0: CDRDocument detecção/parse, RIFF/CDR e Waldo
 - Pré-release GitHub v1.9.0 pública com Portable.zip, Setup.exe, SHA256SUMS.txt, RELEASE_STATUS.json e VALIDATION.md do checkpoint18/10. Cinco downloads reconferidos byte/hash exatos em target/github-public-v1.9.0; relatório target/publication19-report.json. Sem executar instalador nem tocar QA bloqueada.
 - Indicador público11,6%/restante88,4% interno gerado da matriz. Sem alteração de capacidades/pesos, zero equivalentes/CDR ausente. Publicação não aumenta o indicador nem resolve assinatura/desinstalação.
 - CONCLUÍDO: ARCHITECTURE_MEMORY.md.
+
+- EM EXECUÇÃO: target/release-notes-public.md — Remover título duplicado na página da pré-release após conferir renderização pública.
+- CONCLUÍDO: target/release-notes-public.md.
+- EM EXECUÇÃO: target/github-windows-ci-public-final.log — guardar log do workflow Node24 final e conferir contagem real de testes.
+- CONCLUÍDO: CI final39328412676 PASS check/MSVC93 unitários, checkoutv7.0.1/Node24 sem anotação de runtime antigo; log conferido.
+
+- EM EXECUÇÃO: target/publication19-report.json — Registrar CI final e página/anexos conferidos como visitante sem login.
+- CONCLUÍDO: target/publication19-report.json.
+
+- EM EXECUÇÃO: VALIDATION.md — Consolidar prova real do CI final sem repetir suíte por alteração apenas de documentação.
+- CONCLUÍDO: VALIDATION.md.
+
+## Entrega comunitária concluída —19/10/2026
+- Código/documentação públicos em https://github.com/caio-vinicius-dmc/ArtDraw; pré-release https://github.com/caio-vinicius-dmc/ArtDraw/releases/tag/v1.9.0. README renderizado/capturas e7 links de anexos (5 arquivos próprios+2 fontes automáticos GitHub) visíveis sem login. Os5 arquivos próprios baixados têm hashes idênticos ao checkpoint.
+- CI final39328412676 no commit c19d051: Windows/MSVC check e93 testes PASS,3m37s, checkoutv7.0.1/Node24 sem anotação Node20. GNU local também check/93 PASS; captura/GPU139/recovery3 são da homologação1.9 histórica18/10, não novos ensaios desta publicação.
+- Fechamento só de evidências/memória/validação, sem código alterado após CI; conferir -Check e commit de documentação sem repetir suíte já aprovada. Nenhum cache/binário/log de QA no Git; binários nos Releases. Histórico/atribuição MIT mantidos, sem force-push.
+- Próximo desenvolvimento segue matriz/ledger e memória. Indicador11,6% interno, restante88,4% do indicador,363 itens conhecidos/362 offline,zero equivalente. CDR ausente, assinatura/distribuição completa parciais. Publicação não conclui fidelidade100%.
+- CONCLUÍDO: ARCHITECTURE_MEMORY.md.
