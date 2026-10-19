@@ -244,3 +244,24 @@ Pesquisa primária libcdr MPL2.0: CDRDocument detecção/parse, RIFF/CDR e Waldo
 
 - EM EXECUÇÃO: target/release-notes-public.md — Preparar notas de pré-release concretas com hashes/status históricos corretos e participação.
 - CONCLUÍDO: target/release-notes-public.md.
+- EM EXECUÇÃO: target/github-windows-ci-public.log — guardar log público da execução MSVC para conferir testes e diagnóstico de manutenção da ação checkout.
+- CONCLUÍDO: log CI público salvo localmente; execução MSVC39327529588 PASS. Há anotação Node20 na ação checkoutv4 a atualizar.
+- PUBLICAÇÃO: tornar v1.9.0 pré-release pública após CI MSVC39327529588 e hashes dos anexos PASS; manter status experimental/distribuição parcial.
+- CONCLUÍDO: v1.9.0 publicada como pré-release no GitHub, sem mudar binários/checkpoints locais.
+- EM EXECUÇÃO: target/github-public-v1.9.0 — baixar cinco anexos publicados e comparar bytes SHA256 com checkpoint, sem executar instalador.
+- CONCLUÍDO: cinco anexos da pré-release pública baixados e idênticos ao checkpoint SHA256; nenhum executável iniciado.
+- EM EXECUÇÃO: target/publication19-report.json — registrar repositório/pre-release públicos, CI e conferência de download.
+- CONCLUÍDO: target/publication19-report.json com5 hashes públicos conferidos e CI real.
+
+- EM EXECUÇÃO: .github/workflows/windows.yml — Atualizar ação oficial por SHA para Node24 após anotação de runtime obsoleto no primeiro CI.
+- CONCLUÍDO: .github/workflows/windows.yml.
+
+- EM EXECUÇÃO: VALIDATION.md — Registrar CI Windows real, aviso de manutenção e download público com hashes conferidos.
+- CONCLUÍDO: VALIDATION.md.
+
+## Publicação verificada
+- main pública commit c1db036 sobre a licença inicial;78 arquivos fontes/docs/assets, sem target/dist/.tools/tmp/output nem caminhos pessoais/tokens detectados na revisão. README e capturas publicados e renderizados corretamente como visitante. Descrição/tópicos do repositório atualizados.
+- CI Windows39327529588 PASS: check e93 unitários MSVC em clone limpo,3m56s. Anotação Node20 da ação checkoutv4 motivou atualização para checkoutv7.0.1 oficial/SHA3d3c42e5aac5ba805825da76410c181273ba90b1, runtime Node24 confirmado; conferir execução seguinte separada. Nenhum código do editor mudou.
+- Pré-release GitHub v1.9.0 pública com Portable.zip, Setup.exe, SHA256SUMS.txt, RELEASE_STATUS.json e VALIDATION.md do checkpoint18/10. Cinco downloads reconferidos byte/hash exatos em target/github-public-v1.9.0; relatório target/publication19-report.json. Sem executar instalador nem tocar QA bloqueada.
+- Indicador público11,6%/restante88,4% interno gerado da matriz. Sem alteração de capacidades/pesos, zero equivalentes/CDR ausente. Publicação não aumenta o indicador nem resolve assinatura/desinstalação.
+- CONCLUÍDO: ARCHITECTURE_MEMORY.md.
